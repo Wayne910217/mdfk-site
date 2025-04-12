@@ -1,0 +1,207 @@
+<!doctype html>
+<head>
+	<title>DCM course practice</title>
+</head>
+
+
+<body style="background-color:rgba(236, 239, 255, 1);">
+<style>
+
+	/* 設定導航欄背景色與樣式 */
+nav {
+    background-color: steelblue;
+    padding: 15px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .logo img {width: 100px;}
+
+/* 去除列表的默認樣式 */
+nav ul {
+    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+/* 調整每個導航項目 */
+nav ul li {
+    margin: 0 20px; /* 每個選項間的水平間距 */
+}
+
+/* 設定鏈接樣式 */
+nav ul li a {
+    color: #fff; /* 白色文字 */
+    text-decoration: none; /* 去除下劃線 */
+    font-size: 25px; /* 文字大小 */
+    font-weight: bold; /* 加粗字體 */
+    padding: 10px 20px; /* 按鈕樣式的內邊距 */
+    border-radius: 5px; /* 圓角邊框 */
+    transition: background-color 0.3s ease; /* 平滑過渡效果 */
+}
+
+/* 懸停時的顏色變化 */
+nav ul li a:hover {
+    background-color: #e60012; 
+    color: #fff; 
+}
+
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  background-image: url("back 3.jpg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+	white-space: nowrap;
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-size: 100%;
+  color: white ;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+</style>
+	<nav>
+		<div class="logo">
+			<a href="#home"><img src="mdfk logo.png" alt="Logo"></a>
+		</div>
+
+        <ul>
+        	
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#lectures">Lectures</a></li>
+        </ul>
+    </nav>
+
+<div class="hero">  
+  <div class="hero-content"> 
+    <h1>Street dance battles  </h1>
+    <p>MDFK national campus competition vol 1</p>
+    <a href="https://www.youtube.com/@madeoffunk" target="_blank" class="btn">click here!</a>
+  </div>
+</div>
+
+
+<style>
+.video-container {
+  width: 70%;         
+  max-width: 900px;   
+  margin: 50px auto 0 auto;    
+}
+
+.video-container iframe {
+  width: 100%;       
+  height: 500px;   
+  display: block;
+}
+
+</style>
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/4rFLxhRpAFY?si=ZEilkj7rqJv-utgU" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+<section id="about">
+
+	<p style="text-align:center;font-size: 300%; font-family: cursive; font-style: italic; font-weight: bold;">
+		Who is "Made of Funk"?</p>
+		</section>
+	<p style="font-size: 150%; text-align: center;">We are street dance members from Made of Funk originated in Tainan. We started our journey in 2020, and there has been countless amount of adventures we went through. The majority of our appearances can be found in campus, at street dance competition, and pretty much everywhere fun. We provide lectures to students who want to learn street dance, as well as competing at competitions to spread our funkiness. Most importantly, we try to develop a lifestyle and keep being inspired and inspiring!</p>
+
+
+<style>
+	.event {width: 100%; height: auto;}
+</style>
+		<img src="pic01.jpg" alt="MDFK" class="event">
+		
+
+
+
+<section id="events">
+	<h3 style="font-size:300%; text-align:center">Current Events &amp; Info</h3>
+	<p style="text-align: center;"><a style="font-size: 150%;" href="https://www.instagram.com/madeoffunk/" target="_blank">Visit Our IG page!</a></p>
+
+	<style>
+  ol {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    max-width: 90%;
+    padding: 0;
+    list-style-position: inside;
+  }
+  ol li {
+    width: 30%;
+    font-size: 150%;
+    font-weight: bold;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+</style>
+
+	<ol> 
+  		<li>浪人季表演團體</li>
+ 		<li>青銀街舞祭</li>
+  		<li>Soul Funk Battle Guest</li>
+  		<li>放碟季 aka Funk & Soul Weekender</li>
+  		<li>College High Vol18.19.20 5 total champions member</li>
+
+	</ol> 
+	</section>
+
+<style>
+	.lecture{width: 100%; height: auto;}
+</style>
+<img src="MDFK_image.jpg" class="lecture">
+
+<section id="lectures">
+<h3 style="font-size:250%; text-align: center">Lectures Available</h3>
+	<h2 style="text-align: center;">Check out our best dancing teachers!</h2>
+	<ol>
+  		<li><a href = "https://www.instagram.com/tommy_ontheone/?hl=zh-tw" target="_blank">Tommy Boy</a></li>
+ 		<li><a href="https://www.instagram.com/aboby_lin/?hl=zh-tw" target="_blank">Andrew "Aboby" Lin</a></li>
+  		<li><a href="https://www.instagram.com/bboylocker_srj/?hl=zh-tw" target="_blank">Funky "Lisa" Jheng </a></li>
+	</ol>  
+
+	<style>
+	img{display: block; margin: 0 auto}
+	</style>
+
+		<img src="Colorful Muted Class Schedule.png" width="100%" height="auto">
+</section>
+
+
+</body></html>
